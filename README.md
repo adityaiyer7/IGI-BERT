@@ -16,3 +16,11 @@ Note that I only ran a subset of the data due to computational reasons. If I use
 3 NT: 0.0050884016261092384
 
 Showing that the triple nucleotide performs the best. 
+
+
+# How to Replicate
+Here are some things to keep in mind to replicate the results: 
+
+1) Change the path to where the files are stored in your directory. They're currently set to my google drive so running this notebook alone won't work. 
+2) If you have more compute, you'd want to increase the number of training samples. You'd also want to change the batch size.
+3) You could also mess around with the learning rate. 
